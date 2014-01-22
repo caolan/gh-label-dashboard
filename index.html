@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>GitHub Label Dashboard</title>
+  </head>
+  <body>
+    <h1>Label Dashboard</h1>
+    <p>Search across all organisation repositories for open issues with given label</p>
+    <form id="labelForm" action="" method="GET">
+      <input type="text" name="org" placeholder="Organisation" />
+      <input type="text" name="label" placeholder="Label" />
+      <input type="submit" value="Search" />
+    </form>
+    <div id="results"></div>
+    <script src="jam/require.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
